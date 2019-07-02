@@ -96,6 +96,29 @@
 .align-end{align-items: flex-end;}
 .align-start{align-items: flex-start;}
 
+
+/* Card */
+.card{
+  border: 1px solid #d1ccc0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-title{
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+.card-img{
+  width: 80%;
+  height: auto;
+}
+.card-content{
+  font-size: 1.2rem
+}
+.card-meta{
+  font-size: 0.8rem;
+}
+
 /* Other */
 
 .no-border{border: none}

@@ -19,27 +19,27 @@
 
 #### Spacing
 To anyone who's used BootStrap before, this is exactly the same. Sizes range between 1-6, and are given in rems.
-`.m-1`-->`margin: 1rem;`
-`.mt-3`-->`margin-top: 3rem;`
-`.ml-5`-->`margin-left: 4rem;`
+`.m-1`-->`margin: 1rem;`  
+`.mt-3`-->`margin-top: 3rem;`  
+`.ml-5`-->`margin-left: 4rem;`  
 
 ###### The same with padding:
-`.p-1`-->`padding: 1rem;`
-`.pr-6`-->`padding-right: 6rem;`
+`.p-1`-->`padding: 1rem;`  
+`.pr-6`-->`padding-right: 6rem;`  
 
 #### Fonts
   Fonts come in sizes raging from xs to xl, along with h-sized fonts that range bewtween 1 and 6. Font weights are also inncluded.
 
 `.h1`-->`font-size: 4.8rem;`
-`.h6`-->`font-size: 2.3rem;`
+`.h6`-->`font-size: 2.3rem;`  
 
-`.fs-lg`-->`font-size: 2.0rem;`
-`.fs-md`-->`{font-size: 1.6rem;`
-`.fs-sm`-->`font-size: 1.2rem;`
-`.fs-xs`-->`font-size: 0.8rem;`
+`.fs-lg`-->`font-size: 2.0rem;`  
+`.fs-md`-->`{font-size: 1.6rem;`  
+`.fs-sm`-->`font-size: 1.2rem;`  
+`.fs-xs`-->`font-size: 0.8rem;`  
 
-`.fw-heavy`-->`font-weight: 700;`
-`.fw-light`-->`font-weight: 300;`
+`.fw-heavy`-->`font-weight: 700;`  
+`.fw-light`-->`font-weight: 300;`  
 
   #### Display Properties
 The display properties are here to easily apply flex-styles to individual elements.
@@ -47,7 +47,7 @@ The display properties are here to easily apply flex-styles to individual elemen
 `.flex-row` has the following properties:
   ```{
   display: flex;
-  flex-direction: row
+  flex-direction: row;
 }
 ```
 `.flex-col-reverse` You may have guessed.
