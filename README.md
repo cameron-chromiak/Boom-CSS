@@ -60,5 +60,28 @@ The display properties are here to easily apply flex-styles to individual elemen
 `.justify-conter`-->`justify-content: center;`
 `.space-around`-->`justify-content: space-around;`
 
+## Cards
+ Boom uses a grid system to maintain any card fields. To make use of this grid all `.card` elementd should be wrapped by a `.card-container`
+
+ ```
+   <div class="card-container">
+    <div class="card">
+      <div class="card-title">Title</div>
+      <img class="card-img"src="https://images.unsplash.com/photo-1513584684374-8bab748fbf90?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80" alt="">
+      <div class="card-content">
+        <p> Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit, sed do eiusmod tempor
+           sint occaecat cupidatat non proident
+           ,sunt in culpa qui officia deserunt
+           mollit anim id est laborum15
+         </p>
+       </div>
+       <div class="card-meta">
+          2:22pm
+       </div>
+    </div>
+  </div>
+ ```
+
 #### Bonus:
 ###### Included in every BOOM CSS link is a free CSS style reset. You're welcome.

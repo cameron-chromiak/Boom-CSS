@@ -68,7 +68,10 @@
 .fw-heavy{font-weight: 700}
 .fw-light{font-weight: 300}
 
-
+/* Text */
+.text-left{text-align: left;}
+.text-right{text-align: right}
+.text-center{text-align: center;}
 /* Flex */
 .flex-row{
   display: flex;
@@ -98,8 +101,15 @@
 
 
 /* Card */
+.card-container{
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
 .card{
   border: 1px solid #d1ccc0;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,14 +119,15 @@
   font-size: 1.6rem;
 }
 .card-img{
-  width: 80%;
-  height: auto;
+  max-width: 100%;
+  padding: 1rem 0;
 }
 .card-content{
-  font-size: 1.2rem
+  font-size: 1.2rem;
 }
 .card-meta{
   font-size: 0.8rem;
+  color: grey;
 }
 
 /* Other */
