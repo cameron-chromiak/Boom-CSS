@@ -68,6 +68,15 @@
 .fw-heavy{font-weight: 700}
 .fw-light{font-weight: 300}
 
+/* Text Color */
+.color-red{color: #ee5253;}
+.color-orange{color: #ff9f43;}
+.color-yellow{color: #feca57;}
+.color-green{color: #10ac84;}
+.color-blue{color: #54a0ff;}
+.color-light{color: #c8d6e5;}
+.color-dark{color: #222f3e;}
+.color-black{color: black;}
 /* Text */
 .text-left{text-align: left;}
 .text-right{text-align: right}
@@ -104,7 +113,15 @@
 
 
 /* Background Colors */
-.bg-red{background: red;}
+.bg-red{background: #ee5253;}
+.bg-orange{background: #ff9f43;}
+.bg-yellow{background: #feca57;}
+.bg-green{background: #10ac84;}
+.bg-blue{background: #54a0ff;}
+.bg-light{background: #c8d6e5;}
+.bg-dark{background: #222f3e;}
+.bg-black{background: black;}
+
 
 /* Card */
 .card-container{
