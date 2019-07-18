@@ -1,6 +1,10 @@
 /* This css file is for this specific web page and is seperate from */
 /* boom */
 
+#editor {
+    height: 400px;
+}
+
 @keyframes breath-animation{
   0%{
     transform: scaleX(1);
@@ -20,18 +24,17 @@
   animation-name: breath-animation;
   animation-duration: 2s;
   animation-iteration-count: 20;
-}
-body{
-  max-width: 100vw;
-  overflow-x: hidden;
+  height: 95vh
 }
 .nav{
   z-index: 10;
   font-family: 'Plex', Helvetica;
-  position: absolute;
   width: 100vw;
-  height: 40px;
+  height: 5vh;
 }
-*{
+
+body{
+  max-width: 100vw;
+  overflow-x: hidden;
   font-family: 'Plex', Helvetica
 }
